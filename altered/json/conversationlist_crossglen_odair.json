@@ -1,0 +1,62 @@
+[
+    {
+        "id":"odair_select",
+        "replies":[
+            {
+                "nextPhraseID":"odair_complete2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odair",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"odair_continue",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odair",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"odair2"
+            },
+            {
+                "text":"I found a locked doorway in the supply cave. Do you know something about it?",
+                "nextPhraseID":"odair_forgotten_cellar_locked_doorway",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"forgotten_cellar",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"odair1",
+        "message":"Oh, it's you. You with that brother of yours. Always causing trouble.",
+        "replies":[
+            {
+                "text":"Hey! That's so not true. We are really trying to help! At least sometimes...",
+                "nextPhraseID":"odair_select",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odair",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can I talk to you about  ?"
+            }
+        ]
+    }
+]

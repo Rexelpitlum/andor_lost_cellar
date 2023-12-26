@@ -1,0 +1,34 @@
+[
+    {
+        "id":"forgotten_cellar",
+        "name":"Forgotten cellar",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I noticed a locked door in Crossglen's supply cache. I should talk to Odair about it."
+            },
+            {
+                "progress":20,
+                "logText":"Odair told me that Leta's deceased father used to store his crop in a locked cellar within the supply cave. The key to this cellar may still be somewere in Leta's house. I should take a look."
+            },
+            {
+                "progress":30,
+                "logText":"I found a conspicous key in Leta's basement. I should go and try if it unlock the door in the cave."
+            },
+            {
+                "progress":40,
+                "logText":"The door is open now. I wonder what is behind it."
+            },
+            {
+                "progress":50,
+                "logText":"There is a huge storage room that still has useful stuff in it. I should tell Odair."
+            },
+            {
+                "progress":100,
+                "logText":"Odair was really happy to hear about the useful cellar that I discovered. I gave him the key so that the storage space can be used by our village.",
+                "rewardExperience":600,
+                "finishesQuest":1
+            }
+        ]
+    }
+]

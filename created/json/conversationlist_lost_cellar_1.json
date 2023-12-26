@@ -1,0 +1,28 @@
+[
+    {
+        "id":"forgotten_cellar_discovery",
+        "message":"There is some kind of locked doorway in the cave wall. I should perhaps ask Odair about it.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"forgotten_cellar",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"forgotten_cellar_is_locked",
+        "message":"This door is locked."
+    },
+    {
+        "id":"odair_forgotten_cellar_locked_doorway",
+        "message":"A locked door you say... Let me think...\nI remember that old Laeell, Leta's father, used to have some additional storage space somewhere in the cave.\nHe stored his crops there. And sometimes more... interesting... stuff also.\nWould be good for us to have this option again in this... let's say interesting... times.\nSo please have look if you can find the key somewhere in Leta's house.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"forgotten_cellar",
+                "value":20
+            }
+        ]
+    }
+]
